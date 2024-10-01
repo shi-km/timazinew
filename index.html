@@ -6,6 +6,7 @@
     <title>Timazi Africa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
    
@@ -13,10 +14,10 @@
 <body>
  <!-- navigation section -->
   <header>
-      <nav class="navbar navbar-expand-lg bg-warning">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-                <img src="/CDN/assets/images/timazi_logo.png" alt="" style="height:30.94px; width: 90px;" class="img-fluid">
+                <img src="/assets/images/timazi_logo.png" alt="" style="height:30.94px; width: 90px;" class="img-fluid">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
                 <a class="nav-link" href="about.html">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTS</a>
+                <a class="nav-link" href="contact.html">CONTACTS</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,8 +59,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Search resources.." aria-label="Search">
+              <button class="btn bg-black" type="submit" >Search</button>
             </form>
           </div>
         </div>
@@ -68,95 +69,104 @@
   <!-- navigation section end -->
    
   <!-- hero section -->
-  <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="10000">
-    <div class="carousel-indicators ">
-      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouseCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div id="carouselAutoplaying" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators text-warning ">
+      <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url(/CDN/assets/images/backgroung.png);
-       height:90vh; background-position: center; background-size: cover;">
+      <div class="carousel-item active" style="background-image: url(/assets/images/backgroung.png);
+       height:90vh; background-position: center; background-size: cover;" >
         <div class="carousel-caption d-block mb-5">
-         <h1 class="mb-3  display-1">Timazi Africa</h1>
-          <p class="fs-5">Timazi Africa is a non-denominational ministry that proclaims the Gospel of Jesus Christ to the High
-             school student in Africa to know Him, love Him and live for Him..</p>
+         <h1 class="display-1">Timazi Africa</h1>
+  <strong>
+    <p class="fs-5">Timazi Africa is a non-denominational ministry that proclaims the Gospel of Jesus Christ to the High
+      school student in Africa to know Him, love Him and live for Him..</p>
+  </strong>
         </div>
       </div>
-      <div class="carousel-item"  style="background-image: url(/CDN/assets/images/bible-reading-program.png); 
+      <div class="carousel-item"  style="background-image: url(assets/images/bible-reading-program.png); 
       height:90vh; background-position: center;background-size: cover;">
         <div class="carousel-caption d-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+         <strong> <h5 class="display-3">Bible Reading Program</h5></strong>
+  <strong>
+    <p class="fs-5">The Timazi Bible Reading Program is designed to help teenagers, young adults and families read the
+      Bible consistently and develop a lifetime habit of daily Bible reading.</p>
+  </strong>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url(/CDN/assets/images/magazinees.jpg); 
+      <div class="carousel-item" style="background-image: url(/assets/images/magazinees.jpg); 
       height:90vh; background-position: center; background-size: cover;">
         <div class="carousel-caption d-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h5 class="display-3">Latest Magazine</h5>
+        <strong>
+          <p class="fs-5">The magazine is written as a discipleship tool to respond to pop culture with the Gospel 
+            of Jesus Christ and challenge high school students
+             to boldly articulate their faith, love it, live it, and defend it.</p>
+        </strong>
         </div>
       </div>
     </div>
   </div>
   <!-- Hero end -->
 
-  <!-- our programs -->
-   <div class="container my-5">
-    <h1 class="text-center my-5 fs-1">Our Programs</h1>
-    <div class="row gx-4">
-      <div class="col-lg-4 col-sm-12 col-md-4">
-        <div class="card text-center h-100">
-          <img src="/CDN/assets/images/Timazi-Magazines.jpg" class="img-fluid">
-        <div class="card-body ">
-          <h5 class="card-title">Timazi Magazine</h5>
-          <p class="card-text my-3">Exists to TRAIN the Christian High School Student to think and act from a biblical worldview</p>
-       <div class="text-center">
-       <a href=""> <button type="button" class="btn btn-primary my-3">Learn More</button></a>
+       <!-- our programs -->
+       <div class="container my-5">
+        <h1 class="text-center mt-5 fs-1">Our Programs</h1>
+        <div class="row mx-3">
+          <div class="col-lg-4 col-sm-12 col-md-4">
+            <div class="card h-100 ">
+              <img src="/assets/images/Timazi-Magazines.jpg" class="img-fluid">
+            <div class="card-body  text-center  position-relative">
+              <h5 class="card-title">Timazi Magazine</h5>
+              <p class="card-text  mb-5 ">Exists to TRAIN the Christian High School Student to think and act from a biblical worldview</p>
+           <div class="text-center">
+            <a href=""> <button type="button" class="btn  position-absolute text-black bottom-0 translate-middle">Learn More</button></a>
+           </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-4  position-relative">
+            <div class="card h-100">
+              <img src="/assets/images/Timazi-Readership-Challenge.jpg" class="img-fluid">
+            <div class="card-body text-center   position-relative">
+              <h5 class="card-title">Readership Challenge</h5>
+              <p class="card-text mb-5">This is a book reading program designed to build a healthy reading culture among high school students.</p>
+           <div class="text-center">
+            <a href=""> <button type="button" class="btn  position-absolute  bottom-0  text-black translate-middle ">Learn More</button></a>
+           </div>
+            </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-sm-12 col-md-4 ">
+            <div class="card h-100 ">
+              <img src="/assets/images/Mwalimu-Bora.jpg" class="img-fluid">
+            <div class="card-body text-center position-relative">
+              <h5 class="card-title">Mwalimu Bora</h5>
+              <p class="card-text  mb-5">This is the Teacher Formation Program at Timazi Africa.</p>
+           <div class="text-center">
+            <a href=""> <button type="button" class="btn   position-absolute  text-black  bottom-0 translate-middle">Learn More</button></a>
+           </div>
+            </div>
+            </div>
+          </div>
+        </div>
        </div>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-12 col-md-4">
-        <div class="card h-100">
-          <img src="/CDN/assets/images/Timazi-Readership-Challenge.jpg" class="img-fluid">
-        <div class="card-body text-center">
-          <h5 class="card-title">Readership Challenge</h5>
-          <p class="card-text my-3">This is a book reading program designed to build a healthy reading culture among high school students.</p>
-       <div class="text-center">
-       <a href=""> <button type="button" class="btn btn-warning my-3">Learn More</button></a>
-       </div>
-        </div>
-        </div>
-      </div>
-      <div class=" col-lg-4 col-sm-12 col-md-4">
-        <div class="card h-100">
-          <img src="/CDN/assets/images/Mwalimu-Bora.jpg" class="img-fluid">
-        <div class="card-body text-center">
-          <h5 class="card-title">Mwalimu Bora</h5>
-          <p class="card-text my-3">This is the Teacher Formation Program at Timazi Africa.</p>
-       <div class="text-center">
-       <a href=""> <button type="button" class="btn btn-primary my-3">Learn More</button></a>
-       </div>
-        </div>
-        </div>
-      </div>
-    </div>
-   </div>
-   <!-- programs end -->
+       <!-- programs end -->
 
    <!-- bible reading -->
     <div class="container">
       <div class="row gx-5">
         <div class="col-sm-12 col-md-6">
-          <img src="/CDN/assets/images/BRP-minified.jpg" class="img-fluid">
+          <img src="/assets/images/BRP-minified.jpg" class="img-fluid">
         </div>
         <div class="col-sm-12 col-md-6 my-5">
               <strong><h1 class="text-primary display-5">Bible Reading Program</h1></strong>
               <p class="fs-5 my-3">The Timazi Bible Reading Program is designed to help teenagers, young adults and families read the 
                 Bible consistently and develop a lifetime habit of daily Bible reading.</p>
-              <a href=""><button  type="button" class="btn btn-warning my-3">Learn More</button></a>
-              <a href=""><button  type="button" class="btn btn-warning my-3">Buy Now</button></a>
+              <a href=""><button  type="button" class="btn text-black my-3">Learn More</button></a>
+              <a href=""><button  type="button" class="btn text-black my-3">Buy Now</button></a>
         </div>
       </div>
     </div>
@@ -165,7 +175,13 @@
     <!-- testimonial section -->
     <div class="container-fluid">
       <h1 class="text-center m-5">Testimonials</h1>
-      <div id="carouselExampleSlidesOnly" class="carousel slide text-center my-5 bg-light" data-bs-ride="carousel"style="height: 400px; width: 100%;">
+      <div id="carouseSlides" class="carousel slide text-center my-5 bg-light" data-bs-ride="carousel"style="height: 400px; width: 100%;">
+        <div class="carousel-indicators ">
+          <button type="button" data-bs-target="#carouseSlides" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" ></button>
+          <button type="button" data-bs-target="#carouseSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouseSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouseSlides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
           <figure >
@@ -219,46 +235,43 @@
     <!-- testimonials end -->
   
     <!-- our resources -->
-     <div class="container">
+     <div class="container-fluid">
+    <h1 class="bg text-dark my-5 text-center">Our Latest Resources</h1>
      <div class="row gx-4">
       <div class=" col-lg-4 col-sm-12 col-md-4 ">
         <div class="card bg-light h-100">
-          <img src="/CDN/assets/images/resource 1.png">
+          <img src="/assets/images/resource 1.png">
           <div class="card-body">
-            <h2 class="card-tittle">This Thing Called Dating</h2>
+            <h5 class="card-tittle">This Thing Called Dating</h5>
             <p class="card-text">Most of you will get into a dating relationship hoping it will 
               last. But this does not happen always. In any case, these relationships don’t 
               last a term, or a year at their best. And generally, most C...</p>
             <div class="text-center">
-              <a href="#" class="card-link">Read Article</a>
+              <a href="#" class="card-link float-start">Read Article</a>
             </div>
           </div>
         </div>
       </div>
       <div class=" col-lg-4 col-sm-12 col-md-4">
         <div class="card bg-light h-100">
-          <img src="/CDN/assets/images/resource 2.png">
+          <img src="/assets/images/resource 2.png">
           <div class="card-body">
-            <h2 class="card-tittle">This Thing Called Dating</h2>
-            <p class="card-text">Most of you will get into a dating relationship hoping it will 
-              last. But this does not happen always. In any case, these relationships don’t 
-              last a term, or a year at their best. And generally, most C...</p>
+            <h5 class="card-tittle">The Story of Timazi</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et iure esse soluta delectus nesciunt mole...</p>
             <div class="text-center">
-              <a href="#" class="card-link">Read Article</a>
+              <a href="#" class="card-link float-start">Go To Podcast</a>
             </div>
           </div>
         </div>
       </div>
       <div class=" col-lg-4 col-sm-12 col-md-4 ">
         <div class="card bg-light h-100">
-          <img src="/CDN/assets/images/video-Christ-versus-tribal-gods.png">
+          <img src="/assets/images/video-Christ-versus-tribal-gods.png">
           <div class="card-body">
-            <h2 class="card-tittle">This Thing Called Dating</h2>
-            <p class="card-text">Most of you will get into a dating relationship hoping it will 
-              last. But this does not happen always. In any case, these relationships don’t 
-              last a term, or a year at their best. And generally, most C...</p>
+            <h5 class="card-tittle">Christ Versus Tribal gods</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, modi vero possimus nostrum qui...</p>
             <div class="text-center">
-              <a href="#" class="card-link">Read Article</a>
+          <a href="#" class="card-link float-start">Go To Video</a>
             </div>
           </div>
         </div>
@@ -267,25 +280,33 @@
      </div>
     </div>
     <!-- latest resources end -->
+     <div class="subscription bg-light my-5" style="height: 100px;">
+      <div class="container-fluid">
+        <form></form>
+          <input type="email" id="email" placeholder="Email Address">
+          <button> Subscribe</button>
+        </form>
+       </div>
+     </div>
 
      <!-- footer section -->
   <footer class="bg-black">
-    <div class=" container mt-5">
+    <div class=" container-fluid mt-5">
       <div class="row py-5">
         <div class="col-sm-12 col-md-3">
-          <img src="/CDN/assets/images/timazi_logo.png" style="height: 50px;width: 150px;" class="img-fluid">
+          <img src="/assets/images/timazi_logo.png" style="height: 50px;width: 150px;" class="img-fluid">
         </div>
         <div class=" col-md-3">
           <h5 class="text-white">PROGRAMS</h5>
           <ul class="mt-4 list-unstyled text-white">
-            <a href=""><li class="fs-5 py-2">Timazi Magazine</li></a>
-            <a href=""><li class="fs-5 py-2">Readership Challenge</li></a>
-            <a href=""><li class="fs-5 py-2">Bible Reading Program</li></a>
-            <a href=""><li class="fs-5 py-2">Mwalimu Bora</li></a>
+            <a href="" class="link-light"><li class="fs-5 py-2">Timazi Magazine</li></a>
+            <a href="" class="link-light"><li class="fs-5 py-2">Readership Challenge</li></a>
+            <a href="" class="link-light"><li class="fs-5 py-2">Bible Reading Program</li></a>
+            <a href="" class="link-light"><li class="fs-5 py-2">Mwalimu Bora</li></a>
 
             <div class="footer-extra pt-5">
-              <li class="fs-5 py-2"><a href="">Donate</a></li>
-              <li class="fs-5 py-2"><a href="">FAQs</a></li>
+              <li class="fs-5 py-2"><a href=""  class="link-light">Donate</a></li>
+              <li class="fs-5 py-2"><a href=""  class="link-light">FAQs</a></li>
              </div>
 
           </ul>
@@ -293,9 +314,9 @@
         <div class=" col-md-3 ">
           <h5 class="text-white">RESOURCES</h5>
           <ul class=" list-unstyled text-white">
-            <a href=""><li class="fs-5 py-2">Podcasts</li></a>
-            <a href=""><li class="fs-5 py-2">Videos</li></a>
-            <a href="" class="" ><li class="fs-5 py-2">Articles</li></a>
+            <a href=""  class="link-light"><li class="fs-5 py-2">Podcasts</li></a>
+            <a href=""  class="link-light"><li class="fs-5 py-2">Videos</li></a>
+            <a href=""  class="link-light" ><li class="fs-5 py-2">Articles</li></a>
           </ul>
         </div>
         <div class=" col-md-3  ">
@@ -323,7 +344,7 @@
   <!-- footer end -->
 
    <!-- footer bar -->
-       <div class="bg-warning p-2">
+       <div class="footer-bar p-2">
       <p class="text-white fs-5 text-center" >Copyright © 2024 All rights reserved |
         Designed and developed by George Kamau</p>
     </div>

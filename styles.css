@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'cen';
+    src: url(/assets/fonts/Tw\ Cen\ MT.ttf);
+}
+@font-face {
+    font-family: 'Founders Groteski';
+    src: url(/assets/fonts/FoundersGrotesk-Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'cen';
+}
+h1, h5{
+    font-family: 'Founders Groteski';
+}
+/* }navbar section */
+
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-menu a{
+    color: #ffff00;
+}
+/* icons */
+.fa{
+    color: #ffff00;
+}
+.navbar{
+    background-color: #ffff00;
+}
+.card-body{
+    background-color: #f3f3f3;
+}
+
+/* buttons section */
+.btn{
+    background-color: #ffff00;
+    color: white;
+}
+/* footer bar */
+.footer-bar{
+    background-color: #212529;
+}

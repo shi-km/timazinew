@@ -48,7 +48,7 @@ ul.footer-ul .fa{
 background-image:url('/assets/images/contact.png');
 background-size: cover;
 background-position: center;
-height: 75vh;
+height: 70vh;
 }
 .about-hero{
 background-image:url('/assets/images/Timazi-Readership-Challenge-scaled.jpg');
@@ -73,7 +73,15 @@ height: 60vh;
     text-align: center;
     color: #f3f3f3;
 }
-
+/* our latest resources section */
+.latest a{
+text-decoration: none;
+color: black;
+}
+.latest a:hover{
+    text-decoration: underline;
+}
+/* our latest resources end */
 ul.footer-ul li a{
 color:white;
 text-decoration: none;
@@ -83,9 +91,9 @@ ul.footer-ul li a:hover{
     text-decoration: underline;
 }
 /* hero section end */
-.red{
+/* .red{
     background-color: #ffff00;
-}
+} */
 /* footer bar */
 .footer-bar{
     background-color: #212529;

@@ -38,8 +38,29 @@ h1, h5{
 /* buttons section */
 .btn{
     background-color: #ffff00;
-    color: white;
+    color:black;
 }
+/* hero section */
+.hero{
+background-image:url('/assets/images/contact.png');
+background-size: cover;
+background-position: center;
+height: 75vh;
+}
+.about-hero{
+background-image:url('/assets/images/Timazi-Readership-Challenge-scaled.jpg');
+background-size: cover;
+background-position: center;
+height: 60vh;
+}
+.hero-text{
+    padding-top: 20%;
+}
+.about-text{
+    padding-top: 13%;
+}
+/* hero section end */
+
 /* footer bar */
 .footer-bar{
     background-color: #212529;

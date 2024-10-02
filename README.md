@@ -1,4 +1,4 @@
-This a responsive website for an organization called timazi Africa which is fully made by bootstrap, Html and css
+This a responsive website for an organization called timazi Africa which is fully made by bootstrap, Html, css and javascript for functionality
 It allow several user interface interactions i.e
 a user can search for a specific page on the navbar search option 
 a user can fill in a contact form 

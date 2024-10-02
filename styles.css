@@ -25,7 +25,7 @@ h1, h5{
     color: #ffff00;
 }
 /* icons */
-.fa{
+ul.footer-ul .fa{
     color: #ffff00;
 }
 .navbar{
@@ -36,9 +36,12 @@ h1, h5{
 }
 
 /* buttons section */
-.btn{
+.button{
     background-color: #ffff00;
     color:black;
+    padding-inline:  35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* hero section */
 .hero{
@@ -53,14 +56,36 @@ background-size: cover;
 background-position: center;
 height: 60vh;
 }
-.hero-text{
-    padding-top: 20%;
-}
 .about-text{
     padding-top: 13%;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+.bible-hero{
+background-image:url('/assets/images/bible-reading-program.png');
+background-size: cover;
+background-position: center;
+height: 60vh;
+}
+.bible-text{
+    padding-top: 13%; 
+    text-align: center;
+    color: #f3f3f3;
+}
+
+ul.footer-ul li a{
+color:white;
+text-decoration: none;
+}
+ul.footer-ul li a:hover{
+    color: #ffff00;
+    text-decoration: underline;
 }
 /* hero section end */
-
+.red{
+    background-color: #ffff00;
+}
 /* footer bar */
 .footer-bar{
     background-color: #212529;
